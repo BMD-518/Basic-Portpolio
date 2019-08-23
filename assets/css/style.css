@@ -1,0 +1,18 @@
+body {
+    width: 960px;
+    
+}
+
+header {
+    padding: 20px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-bottom: 5px;
+}
+
+#name {
+    background-color: #4aaaa5;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
