@@ -1,18 +1,33 @@
-body {
-    width: 960px;
-    
-}
-
 header {
-    padding: 20px;
-    background-color: #ffffff;
-    border-color: #cccccc;
-    border-bottom: 5px;
+    width: 960px;
+    height: 75px;;
+    margin: auto;#sidebar {
+        /* Positioning */
+        float: right;
+      
+        /* Visual */
+        background: #eee;
+      }
 }
 
 #name {
     background-color: #4aaaa5;
-    padding: 20px;
-    width: 200px;
+    color: white;
     text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 75px;
+    width: 200px;
+    padding-top: 10px;
+    padding-block: 5px;
+    float: left;
+}
+
+
+#nav {
+float: right;
+}
+
+#about-me {
+    clear: both;
+    overflow: auto;
 }
