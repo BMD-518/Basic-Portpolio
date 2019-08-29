@@ -40,7 +40,7 @@ h1 {
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
-    border-bottom: 3px solid #dddddd
+    border-bottom: 3px solid #dddddd;
 }
 
 h2,
@@ -76,6 +76,14 @@ h3 {
 nav {
     float: right;
     margin-top: 25px;
+    margin-right: 135px;
+}
+
+#about-link,
+#portfolio-link,
+#contact-link {
+    text-decoration: none;
+    color: #777777
 }
 
 nav a:first-child {
@@ -91,7 +99,7 @@ footer {
     text-align: center;
     background: #666666;
     border-top: 8px solid #4aaaa5;
-    height: 50px;
+    height: 100px;
     /* ***WHY*** issue here with footer container height, corrected when second color is added. */
 }
 
@@ -126,7 +134,7 @@ h2 {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 25px 10px 25px 10px;
     overflow: auto;
 }
 
